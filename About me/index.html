@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to Amy Gomez Vlog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <h1>Welcome to Amy Gomez Vlog</h1>
+    <img src="profile.jpg" alt="Amy Gomez" class="profile-pic" />
+  </header>
+
+  <!-- ABOUT SECTION -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! My name is <strong>Amy Gomez</strong>. I’m a Computer Science student passionate about web design, coding, and sharing my learning journey online. This site is where I’ll post updates about my projects, what I’m learning, and my tech thoughts!</p>
+
+    <ul class="contact-info">
+      <li><strong>Email:</strong> <a href="mailto:amygomez@example.com">amys.gomez777@gmail.com</a></li>
+      <li><strong>GitHub:</strong> <a href="https://github.com/" target="_blank">github.com/amygomez</a></li>
+      <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/" target="_blank">linkedin.com/in/amygomez</a></li>
+    </ul>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>Python</span>
+      <span>Dart</span>
+      <span>GitHub</span>
+      <span>SQL</span>
+      <span>C++</span>
+      <span>Java</span>
+      <span>Flutter</span>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>This website itself — built using HTML, CSS, and JS!</p>
+      <section id="demo">
+  <h2>Project Demo Video</h2>
+  <p>🎥 Video demonstration coming soon! Stay tuned.</p>
+</section>
+
+    </div>
+    <div class="project-card">
+      <h3>PitStop</h3>
+      <p>This is a final project that I have completed, which allows the user to see any avalible parking stops at a given campus they attend!</p>
+      <a href ="https://github.com/amy020/PitStop" target="_blank">View on GitHub</a>
+      <section id="demo">
+  <h2>Project Demo Video</h2>
+  <p>🎥 Video demonstration coming soon! Stay tuned.</p>
+</section>
+
+    </div>
+    <div class="project-card">
+      <h3>Upcoming Project</h3>
+      <p>Stay tuned for my next coding challenge update!</p>
+    </div>
+  </section>
+
+  <!-- BLOG SECTION -->
+  <section id="blog">
+    <h2>My Blog</h2>
+    <p>Welcome to my blog! Here I post about coding, school projects, and things I’m learning.</p>
+
+    <article class="blog-post">
+      <h3>💡 My First Blog Post — Learning HTML</h3>
+      <p><em>Posted on October 14, 2025</em></p>
+      <p>Today I started building my own About Me website for class. I learned how HTML creates structure, CSS adds style, and JS adds interactivity. It’s so cool to see everything come together! being able to have a website to add my coding updates is fun that way I can share with others!!</p>
+    </article>
+
+    <article class="blog-post">
+      <h3>🎯 My Goals for This Semester</h3>
+      <p><em>Posted on October 10, 2025</em></p>
+      <p>I want to learn more about full-stack development — connecting front-end and back-end. I’m also excited to improve my design skills. Littl eby little I will be able to have more going on to show what I am up to!</p>
+    </article>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm" onsubmit="return handleSubmit(event)">
+      <label>Name <input type="text" id="name" required /></label>
+      <label>Email <input type="email" id="email" required /></label>
+      <label>Message <textarea id="message" rows="4" required></textarea></label>
+      <button type="submit">Send</button>
+      <p id="formStatus"></p>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2025 Amy Gomez </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

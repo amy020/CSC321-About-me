@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  color: #000000;
+  line-height: 1.6;
+}
+
+/* HEADER */
+.header {
+  background: #ea99cc;
+  color: #000000;
+  text-align: center;
+  padding: 40px 20px;
+  position: relative;
+}
+
+.header h1 {
+  font-size: 2.2em;
+  margin: 0;
+}
+
+/* SECTIONS */
+section {
+  width: 90%;
+  margin: 40px auto;
+}
+
+h2 {
+  border-bottom: 2px solid #45a29e;
+  padding-bottom: 5px;
+}
+
+/* ABOUT */
+#about p {
+  font-size: 1.1em;
+  color: #000000;
+}
+
+.contact-info li {
+  list-style: none;
+  margin: 5px 0;
+}
+
+/* SKILLS */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.skills-list span {
+  background: #ea99cc;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+/* PROJECTS */
+.project-card {
+  background: #ea99cc;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* BLOG */
+.blog-post {
+  background: #ea99cc;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.blog-post h3 {
+  color: #000000;
+}
+.blog-post em {
+  color: #8b7676;
+}
+
+/* CONTACT */
+form {
+  display: grid;
+  gap: 10px;
+  max-width: 400px;
+}
+input, textarea, button {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #555;
+  width: 100%;
+}
+button {
+  background: #45a29e;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 15px;
+  background: #14161c;
+  color: #aaa;
+  margin-top: 40px;
+}
+
+/* === FORCE SMALL CIRCULAR PICTURE === */
+header img.profile-pic {
+  width: 90px !important;          /* fixed size */
+  height: 90px !important;
+  border-radius: 50% !important;   /* circle */
+  object-fit: cover !important;    /* crop correctly */
+  position: absolute !important;
+  top: 15px !important;
+  right: 15px !important;
+  border: 2px solid #000000 !important;
+  overflow: hidden !important;
+  z-index: 9999 !important;
+}
+
